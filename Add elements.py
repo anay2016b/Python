@@ -10,7 +10,9 @@ while not done:
     for event in pygame.event.get():
        if event.type == pygame.QUIT:
           done = True
-    pygame.draw.circle(screen, (0, 0,150), (237.5, 137.5), 7.5)
+    
+    pygame.draw.rect(screen, (255, 255, 255), pygame.Rect(0, 0, 450, 450))
+    pygame.draw.circle(screen, (0, 0,150), (237.5, 137.5), 5)
     pygame.draw.circle(screen, (0, 175, 255), (282.5, 137.5), 5)
     pygame.draw.rect(screen, (0, 255, 0), pygame.Rect(225, 160, 75, 7.5))
     pygame.draw.rect(screen, (0, 255, 0), pygame.Rect(175, 225, 50, 15))
@@ -21,6 +23,7 @@ while not done:
     pygame.draw.rect(screen, (0, 255, 0), pygame.Rect(195, 360, 50, 15))
     pygame.draw.rect(screen, (0, 255, 0), pygame.Rect(275, 360, 50, 15))
     pygame.draw.circle(screen, (0, 255, 255), (260, 152.5), 50, 5)
+    
    
     pygame.display.flip()
     
