@@ -23,6 +23,7 @@ while not done:
     pygame.draw.rect(screen, (0, 255, 0), pygame.Rect(195, 360, 50, 15))
     pygame.draw.rect(screen, (0, 255, 0), pygame.Rect(275, 360, 50, 15))
     pygame.draw.circle(screen, (0, 255, 255), (260, 152.5), 50, 5)
+    pygame.draw.rect(screen, (0, 255, 0), pygame.Rect(0, 375, 450, 15))
     
    
     pygame.display.flip()
