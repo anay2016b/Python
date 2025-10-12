@@ -8,7 +8,7 @@ f1 = Frame(master = window, bg = "green", bd = 12, width = 300, height = 250, re
 l1 = Label(master = f1, text = "Click below", width = 20 , height = 1 , bg = "gold", fg = "light blue", font = ("Times New Roman", 20))
 def show():
     
-    messagebox.showinfo("Information", "You clicked here")
+    messagebox.showwarning("Information", "You clicked here")
     
 btn1 = Button(master = f1, text = "Click me", fg = "orange", command = show, width = 10, height = 1)
 
