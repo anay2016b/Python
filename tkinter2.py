@@ -92,7 +92,7 @@ btn6 = Button(f6, text = "Enter(y√x)", fg = "green", command= p6, width = 10, 
 
 
 f7 = Frame(master = window, bg = "red", bd = 20, width = 300, height = 180, relief = GROOVE)
-l19 = Label(f7, text = "Enter first number", bg = "red", fg = "yellow", font= ("Times New Roman", 20))
+l19 = Label(f7, text = "Enter number", bg = "red", fg = "yellow", font= ("Times New Roman", 20))
 e13 = Entry(f7, width = 30, bd = 5, bg = "light blue", fg = "black", font = ("Arial", 15))
 
 
@@ -105,7 +105,7 @@ def p7():
 btn7 = Button(f7, text = "Enter(!)", fg = "green", command= p7, width = 10, height = 1)
 
 f8 = Frame(master = window, bg = "red", bd = 20, width = 300, height = 180, relief = GROOVE)
-l21 = Label(f8, text = "Enter first number", bg = "red", fg = "yellow", font= ("Times New Roman", 20))
+l21 = Label(f8, text = "Enter number", bg = "red", fg = "yellow", font= ("Times New Roman", 20))
 e14 = Entry(f8, width = 30, bd = 5, bg = "light blue", fg = "black", font = ("Arial", 15))
 
 
