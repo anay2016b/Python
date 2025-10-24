@@ -1,7 +1,6 @@
 from tkinter import *
 import datetime
 from datetime import date
-datetime.time()
 window = Tk()
 window.geometry("3000x5000")
 window.title("Age calculator")
