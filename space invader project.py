@@ -62,6 +62,7 @@ def fire_bullet(x, y):
     global bullet_state
     bullet_state = "fire"
     screen.blit(bullet_image, (x + 16, y + 10))
+    
 def is_collision(enemyx, enemyy, bulletx, bullety):
     distance = math.sqrt(((enemyx - bulletx) ** 2) + ((enemyy - bullety) ** 2))
     return distance < 27
